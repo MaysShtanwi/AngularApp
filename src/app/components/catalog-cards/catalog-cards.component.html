@@ -1,0 +1,11 @@
+<div class="card-container">
+    <!-- <div class="left-bar" style="background-color: blue;"></div> -->
+    <div class="card" [style.border-left-color]="items.color">
+        <div class="card-content">
+            <div class="icon"><img [src]="items.icon" alt=""></div>
+            <h2 class="card-title">{{items.title}}</h2>
+            <div class="card-sub-title">{{items.subTitle}}</div>
+            <div class="card-description">{{items.description}}</div>
+        </div>
+    </div>
+</div>

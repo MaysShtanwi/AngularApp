@@ -1,0 +1,31 @@
+@import "../../../colors.scss";
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: $navy-color;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+}
+
+.right-side {
+    display: flex;
+    gap: 30px;
+    font-family: sans-serif;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

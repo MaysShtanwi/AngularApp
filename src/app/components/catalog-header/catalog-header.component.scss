@@ -1,0 +1,30 @@
+@import "../../../colors.scss";
+
+.catalog-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.catalog-icon {
+    border: 1px solid $border-color;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.main-title {
+    color: black;
+    margin: 0;
+    font-weight: 400;
+}
+
+.sub-title {
+    color: grey;
+}
+
+.catalog-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

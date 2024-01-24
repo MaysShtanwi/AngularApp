@@ -1,0 +1,37 @@
+@import "../../../colors.scss";
+
+.card {
+    border-radius: 8px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    padding: 40px 30px;
+    background-color: white;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-title {
+    color: $font-color;
+    margin: 0;
+}
+
+.card-sub-title {
+    color: $font-color;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-description {
+    color: grey;
+}
+
+.icon {
+    border-radius: 50%;
+    background-color: $background-color;
+    padding: 17px 20px;
+}

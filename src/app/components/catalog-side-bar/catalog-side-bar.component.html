@@ -1,0 +1,9 @@
+<div class="sidebar-container">
+    <div class="sidebar-services" *ngFor="let item of services">
+        <h4 class="service-title">{{item.title}}</h4>
+        <div class="service-items" *ngFor="let service of item.items; let i = index">
+            <input type="checkbox" [id]="i">
+            <label class="service-item" [for]="i">{{service}}</label>
+        </div>
+    </div>
+</div>

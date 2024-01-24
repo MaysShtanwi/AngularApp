@@ -1,0 +1,17 @@
+<div class="body-container">
+    <app-catalog-side-bar></app-catalog-side-bar>
+    <div class="catalog-inner__container">
+        <app-catalog-search-bar></app-catalog-search-bar>
+        <div class="categories-display">
+            <div class="result">Showing: <span>{{cardsArray.length}} services</span></div>
+            <div class="display-container">
+                <div class="blocks-display active"><img src="assets/Tablerows.png" alt=""></div>
+                <div class="lists-display"><img src="assets/Group.png" alt=""></div>
+            </div>
+        </div>
+        <div class="cards-container">
+            <app-catalog-cards *ngFor="let card of cardsArray" [items]="card"></app-catalog-cards>
+        </div>
+        <app-pagination></app-pagination>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+@import "../../../colors.scss";
+
+.body-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.catalog-inner__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: calc(100% - 300px);
+}
+
+.result span {
+    color: $font-color;
+    font-weight: 600;
+}
+
+.display-container {
+    display: flex;
+    width: fit-content;
+}
+
+.categories-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blocks-display {
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    background-color: $navy-color;
+}
+
+.lists-display {
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: $white;
+}
